@@ -91,3 +91,47 @@
     top: 11px;
     background-color: rgba(255, 255, 255, 0);
 }
+
+.header__motifi{
+    position: absolute;
+    width:400px;
+    top: 100%;
+    right: 0;
+    background-color: var(--white-color);
+
+}
+.header__motifi-title{
+
+}
+.header__motifi-title h3{
+    margin: 0;
+    height: 40px;
+    line-height: 40px;
+    margin-left: 8px;
+    font-weight: 300;
+    font-size: 16px;
+}
+
+.header__motifi-info{
+    display: flex;
+}
+.header__motifi-img{
+    width: 48px;
+    margin: 0 10px;
+}
+.header__motifi-link{
+    display: block ;
+    text-decoration: none;
+    color: black;
+}
+.header__motifi-link:nth-child(1)
+{
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.header__motifi-link:nth-child(2)
+{
+    font-size: 12px;
+}
+
