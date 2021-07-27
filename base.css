@@ -73,20 +73,5 @@ html{
     position: relative;
     z-index: 1;
     border-radius: 5px;
-}
-/* btn style */
-.btn{
-    min-width:142px ;
-    min-height: 36px;
-    border: none;
-    border-radius: 2px;
-    text-decoration: none;
-    font-size: 1.4rem;
-    padding: 0;
-    cursor: pointer;
-}
-
-.btn.btn-primary{
-    color:white;
-    background-color: red;
+    overflow: hidden;
 }
