@@ -95,7 +95,20 @@
                             Trợ Giúp
                         </a></li>
                         <li class="header__navbar-item header__navbar-item--separate"><a href="#" class="header__navbar-item-link header__navbar-item-link--bold">Đăng Kí</a></li>
-                        <li class="header__navbar-item"><a href="#" class="header__navbar-item-link header__navbar-item-link--bold">Đăng Nhập</a></li>
+                        <li class="header__navbar-item"><a href="#" class="header__navbar-item-link header__navbar-item-link--bold navbar__login">
+                            <div class="header__avata">
+                                <img src="./image/avata.jpg" alt="avata" class="header__avata--img">
+                            </div>
+                            Phạm Hải
+                            <div class="header__login--info">
+                                <ul class="list-info">
+                                    <li class="info--item">Tài Khoản của Tôi</li>
+                                    <li class="info--item">Địa Chỉ Của Tôi</li>
+                                    <li class="info--item">Đơn mua</li>
+                                    <li class="info--item">Đăng Xuất</li>
+                                </ul>
+                            </div>
+                        </a></li>
                     </ul>
                 </nav>
                 <!-- header with search -->
@@ -105,13 +118,25 @@
                     </div>
                     <div class="header-box-search">
                         <div class="header-box-search-input">
-                            <input type="text" class="search-input" placeholder="Tìm kiếm sản phẩm">
+                            <div class="input-search">
+                                 <input type="text" class="search-input" placeholder="Tìm kiếm sản phẩm">
+                                 <div class="search__history">
+                                     <h3>Lịch sử Tìm Kiếm</h3>
+                                     <ul class="search__history--list">
+                                         <li class="search__history--item">Sữa tắm</li>
+                                         <li class="search__history--item">Quần ren lọt khe</li>
+                                     </ul>  
+                                 </div>
+                            </div>
                             <div class="search-select">
                                 <span class="search-select-label">
-                                    Trong Shop<i class="fas fa-chevron-down"></i>
+                                    Trong Shop<i class="fas fa-chevron-down searchi"></i>
                                 </span>
                                 <ul class="header--list--option">
-                                    
+                                    <li class="header--list--item">Trong shop
+                                        <i class="fas fa-check option-icon"></i>
+                                    </li>
+                                    <li class="header--list--item">Ngoài shop</li>
                                 </ul>
                             </div>
                             
@@ -127,7 +152,9 @@
                 </div>
 
         </header>
-            <div class="container"></div>
+            <div class="container">
+                
+            </div>
             <footer class="footer"></footer>
         </div>
         </div>
@@ -209,6 +236,6 @@
                     </div> -->
                 </div>
             </div>
-        </div> -->
+        </div> 
 </body>
 </html>
