@@ -2,6 +2,7 @@
     --white-color: #fff;
     --black-color: #000;
     --text-color: #333;
+    --primary-color: #ff633c;
     --height-header: 120px;
     --height-navbar: 40.8px;
     --height-search: calc(var(--height-header) - var(--height-navbar))
@@ -22,6 +23,7 @@ html{
     width: 1200px;
     max-width: 100%;
     margin: 0 auto;
+    
 }
 
 .grid__full-width{
@@ -31,6 +33,18 @@ html{
 .grid__row{
     display: flex;
     flex-wrap: wrap;
+    margin-left: -12px;
+    margin-right: -12px;
+}
+.grid-column-10{
+    width: 83.3333%;
+    padding-left: 12px;
+    padding-right: 12px;
+}
+.grid-column-2{
+    width: 16.6667%;
+    padding-left: 12px;
+    padding-right: 12px;
 }
 
 
